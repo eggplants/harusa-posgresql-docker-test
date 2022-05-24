@@ -20,8 +20,14 @@ docker compose up -d  # compose V2
 - Stop
 
 ```bash
-docker stop  # compose V1
-docker stop  # compose V2
+docker stop
+```
+
+- Clean up
+
+```bash
+docker-compose down  # compose V1
+docker compose down  # compose V2
 ```
 
 ## TIPS
